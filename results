@@ -1,0 +1,6 @@
+def handle_results(predictions):
+    # Example: Print or save predictions
+    print(predictions)
+    # Or save to a file
+    # with open('predictions.txt', 'w') as f:
+    #     f.write(str(predictions))
