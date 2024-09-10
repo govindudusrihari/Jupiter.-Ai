@@ -1,0 +1,3 @@
+def make_predictions(model, input_data):
+    predictions = model.predict(input_data)
+    return predictions
