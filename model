@@ -1,0 +1,8 @@
+try:
+    model = load_ldsr_model(model_path)
+except FileNotFoundError:
+    print(f"Error: Model file not found at {model_path}")
+    exit(1)
+except Exception as e:
+    print(f"An error occurred: {e}")
+    exit(1)
