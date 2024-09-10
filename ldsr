@@ -1,0 +1,12 @@
+import os
+from your_ml_library import load_model  # Replace with actual import
+
+def load_ldsr_model(model_path):
+    # Assuming the model is a file in the provided directory
+    model_file = os.path.join(model_path, 'model_file_name')  # Replace with actual model file name
+    model = load_model(model_file)
+    return model
+
+# Example usage
+model_path = args.ldsr_models_path
+model = load_ldsr_model(model_path)
